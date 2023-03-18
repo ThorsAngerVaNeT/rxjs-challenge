@@ -1,6 +1,11 @@
 # RxJS Challenge
 A set of little RxJS puzzles to practice your Observable skills by [Alex](https://twitter.com/Waterplea) and [Roman](https://twitter.com/marsibarsi).
 
+## How to run code locally?
+- Install dependencies with legacy flag `npm install --legacy-peer-deps`
+- Force install newer version of dependencies `npm install @angular/language-service@11.2.10 @angular/compiler-cli@11.2.10 --save-dev --force`
+- Use Node.js v12-16
+
 ## Day 01
 Create an Observable to track focus in a section of the page.
 
